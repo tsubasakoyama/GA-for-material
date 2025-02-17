@@ -141,20 +141,6 @@ GAML consists of six steps, including the four previously mentioned steps and th
     The chromosome sequences are saved in Save_info and out.value_indiv. 
 &nbsp;      
 
-##　Selection Method for Surviving Individuals
-The selection method for surviving individuals can be specified around line 38 in GmAte_ML.py.
-select_mode = "ranking"
-
-* Ranking Selection (ranking)
-    The same selection method as gstring. Individuals are ranked in order of energy stability, and the top individuals are selected for survival.
-
-* Tournament Selection (tournament)
-    A tournament is conducted, and the winners are selected as surviving individuals.
-
-* Roulette Selection (roulett)
-    Weights are assigned based on fitness, and a roulette wheel is spun to select surviving individuals. More fit individuals have a higher probability of being chosen.
-&nbsp;   
-
 ## About an example folder   
 * LSCF_M3GNet  
    This refers to the optimization of the (La, Sr) sites and (Co, Fe) sites in La38Sr26Co13Fe51O192.  
